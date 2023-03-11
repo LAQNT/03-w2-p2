@@ -71,3 +71,487 @@ EXTRAS
 17) Crea una funzione che rimuova tutte le "card" dalla pagina
 
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b0f0399816.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>World Flights</title>
+</head>
+<body class="d-flex flex-column text-center">
+    
+
+<!-- ----------------navBar-------------------- -->
+    <section id="navbar">
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!--logo -->
+            <nav class="navbar navbar-light bg-light p-3">
+                <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-earth-americas"></i>
+                </a>
+            </nav>
+
+            <a class="navbar-brand" href="#">World Flights</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#weekOffers">Week Offers <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#welcomeSummer">Welcome Summer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#todayOffer">Just For Today</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#lastMinuteOffer">Last Minute Offer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactUs">Contact Us</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+        
+    </section>
+    
+    
+    
+    <!-- ----------------jumbotron-------------------- -->
+    
+    <section id="jumbotron ">
+      <div class="container-fluid bg-warning d-flex  justify-content-center mb-5">
+        <div class="row">
+            <div class="col p-3 m-0 text-center">
+                <h3>World Flights</h3>
+                <p>Discover the world with our special offers</p>
+            </div>
+        </div>
+        
+
+
+      </div>  
+
+
+    </section>
+    
+    
+    
+    
+    <!-- ----------------weekOffer-------------------- -->
+    
+    <section id="weekOffers">
+
+
+
+        <div class="container m-auto p-0 gx-2">
+            <h3>Week Offers</h3>
+            <div class="row">
+
+                <!-- ---------card1--------- -->
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="card " style="width: 15rem;">
+                        <img class="card-img-top" src="https://picsum.photos/200" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">New York</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                <!-- ---------card2--------- -->
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="card " style="width: 15rem;">
+                        <img class="card-img-top" src="https://picsum.photos/201" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Bogota</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- ---------card3--------- -->
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="card " style="width: 15rem;">
+                        <img class="card-img-top" src="https://picsum.photos/199" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">London</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ---------card4--------- -->
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="card " style="width: 15rem;">
+                        <img class="card-img-top" src="https://picsum.photos/202" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Tokyo</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+    
+    
+    
+    
+    
+    <!-- ----------------welcomeSummer-------------------- -->
+    
+    <section id="welcomeSummer">
+        <div class="container m-5 mx-auto p-0 ">
+            <h3>Welcome Summer</h3>
+            
+            <div class="row" >
+
+                <!-- ---------card 1.1--------- -->
+                <div class="col-lg-2 col-md-4 col-6">
+
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/203" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Barcelona</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- ---------card 1.2--------- -->
+                <div class="col-lg-2 col-md-4 col-6">
+
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/204" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Porto</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- ---------card 1.3--------- -->
+                <div class="col-lg-2 col-md-4 col-6">
+
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/205" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Miami</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- ---------card 1.4--------- -->
+                <div class="col-lg-2 col-md-4 col-6">
+
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/206" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Mexico City</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- ---------card 1.5--------- -->
+                <div class="col-lg-2 col-md-4 col-6">
+
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/207" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Budapest</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- ---------card 1.6--------- -->
+                <div class="col-lg-2 col-md-4 col-6">
+
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/208" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Cartagena</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    
+    
+    
+    
+    <!-- ----------------todayOffer-------------------- -->
+    
+    <section id="todayOffer" class="d-none d-sm-block">
+        <div class="container m-5 mx-auto pl-3 ">
+            <h3>Just for Today</h3>
+
+            <div class="row">
+                <div class="col">
+                    
+                <!-- ---------cardMain--------     -->
+                    <div class="d-flex " >
+                        <img class="card-img-top" src="https://picsum.photos/198" alt="D1">
+
+                        <div class="col-5 card-body d-flex flex-column text-center p-3 justify-content-between">
+                            <h5 class="card-title">La Havana</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's contentSome quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's contentSome quick example text to build on the card tit
+                            </p>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                <!-- ------------------ -->
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    
+    
+    <!-- ----------------lastMinuteOffer-------------------- -->
+    
+    <section id="lastMinuteOffer">
+        <div class="container m-5 mx-auto gx-2">
+            <h3>Last Minute Offer</h3>
+
+            <div class="row">
+
+                <!-- --------card 2.1-------- -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/208" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Rome</h5>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- --------card 2.2-------- -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/224" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Dublin</h5>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- --------card 2.3-------- -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/223" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Rio di Janeiro</h5>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- --------card 2.4-------- -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/222" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Montreal</h5>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- --------card 2.4-------- -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/221" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Sidney</h5>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- --------card 2.4-------- -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    
+                    <div class="card " style="width: 10rem;">
+                        <img class="card-img-top" src="https://picsum.photos/220" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Teheran</h5>
+                            <a href="#" class="btn btn-primary">Discover more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ----------------testimonial-------------------- -->
+    
+    <section id="testimonial">
+        <div class="container m-5 mx-auto">
+            <h3>Testimonials</h3>
+            <div class="row d-flex justify-content-center">
+
+                <!-- -------- rev 1-------- -->
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="card " style="width: auto;">
+                        <img class="card-img-top" src="https://picsum.photos/206" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Ana</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- -------- rev 2-------- -->
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="card " style="width: auto;">
+                        <img class="card-img-top" src="https://picsum.photos/210" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Alex</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- -------- rev 3-------- -->
+                <div class="col-lg-4 col-sm-6">
+
+                    <div class="card " style="width: auto;">
+                        <img class="card-img-top" src="https://picsum.photos/211" alt="D1">
+                        <div class="card-body d-flex flex-column justify-items-center text-center">
+                            <h5 class="card-title">Dimitri</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5 mx-auto">
+                <form class="p-0">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Let us know what you think!</label>
+                        <textarea class="form-control p-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button id="#contactUs" type="button" class="btn btn-light m-3">Submit</button>
+                      </div>
+                </form>
+            </div>
+
+        </div>
+
+
+    </section>
+    
+    <!-- ----------------footer-------------------- -->
+    
+    <footer >
+        <div class="container-fluid bg-warning d-flex  justify-content-center m-0">
+            <div class="row">
+                <div class="col p-3 m-0 text-center d-flex flex-column align-content-between">
+                    <h5>World Flights</h5>
+                    <span>Discover the world with our special offers</span>
+                    <span>Milano, Italy</span>
+                    <span>Founder: Laura Quintero</span>
+                    <button id="#contactUs" type="button" class="btn btn-dark">Contact us</button>
+                   
+                </div>
+            </div>
+            
+    
+    
+          </div>  
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+<script src="./bootstrap/js/bootstrap.bundle.js"></script> 
+    <script src="script.js"></script> 
+    <script src="https://kit.fontawesome.com/b0f0399816.js" crossorigin="anonymous"></script>    
+</body>
+</html>
