@@ -3,11 +3,19 @@
     font-size: 2rem;
 }
 
+#jumbotron span {
+
+    color: rgb(254, 255, 211);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
 #welcomeSummer .card{
 
     box-shadow: 1.1rem 1rem 0rem;
-    
 }
+
+
 
 h3 {
     margin-bottom: 1.5rem;
